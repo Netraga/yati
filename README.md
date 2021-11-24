@@ -1,3 +1,3 @@
 # Yati
 
-Netraga's Yati is a component library.
+Yati UI represents a collection of utilities, React components, and web components for building web applications.
