@@ -1,11 +1,16 @@
 import React from 'react';
 
-const Button = () => {
+const Button = React.forwardRef<
+  HTMLButtonElement,
+  React.ComponentPropsWithoutRef<'button'>
+>(({ children, ...props }, ref) => {
   return (
     <>
-      <button>Click me</button>
+      <button ref={ref} type="button" {...props}>{children}</button>
     </>
   );
-};
+});
+
+Button.displayName = 'Button';
 
 export default Button;
