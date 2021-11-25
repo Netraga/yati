@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { FieldContext } from './FieldContext';
+import { StyledLabel } from './styles';
 
 const Label = React.forwardRef<
   HTMLLabelElement,
@@ -9,7 +10,7 @@ const Label = React.forwardRef<
 
   return (
     <>
-      <label ref={ref} htmlFor={id} {...props} />
+      <StyledLabel ref={ref} htmlFor={id} {...props} />
     </>
   );
 });

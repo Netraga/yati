@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { FieldContext } from './FieldContext';
+import { StyledInput } from './styles';
 
 const Input = React.forwardRef<
   HTMLInputElement,
@@ -9,7 +10,7 @@ const Input = React.forwardRef<
 
   return (
     <>
-      <input ref={ref} id={id} {...props} />
+      <StyledInput ref={ref} id={id} {...props} />
     </>
   );
 });
