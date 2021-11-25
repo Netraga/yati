@@ -1,3 +1,4 @@
+import { StyledTextarea } from './styles';
 import styled from 'styled-components';
 import { transparentize } from 'polished';
 import {
@@ -37,3 +38,7 @@ export const StyledInput = styled.input`
     opacity: ${DISABLED_OPACITY};
   }
 `;
+
+export const StyledTextArea = styled(StyledInput as 'textarea').attrs({
+  as: 'textarea',
+})``;

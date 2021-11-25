@@ -4,7 +4,7 @@ import { StyledInput } from './styles';
 
 const Input = React.forwardRef<
   HTMLInputElement,
-  React.ComponentPropsWithoutRef<'input'>
+  React.ComponentPropsWithRef<'input'>
 >((props, ref) => {
   const id = useContext(FieldContext);
 
