@@ -1,6 +1,6 @@
 {
   "name": "@netraga/yati",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Yati is a component library.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
