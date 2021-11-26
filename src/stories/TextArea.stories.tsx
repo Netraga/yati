@@ -1,6 +1,6 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
-import Field  from '../fields/Field';
+import Field from '../fields/Field';
 
 export default {
   title: 'Example/TextArea',
